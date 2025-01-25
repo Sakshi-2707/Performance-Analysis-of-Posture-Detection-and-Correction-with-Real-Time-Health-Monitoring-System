@@ -6,7 +6,7 @@ from Adafruit_IO import Client
 from PIL import Image, ImageTk  # Import for background image handling
 
 # Adafruit IO Configuration
-aio = Client('Sakshi_27', 'aio_PAlV173GgtUG52zWQXdXXLJIJYTU')
+aio = Client('Your adafruit profile name here', 'Write your adafruit API key here')
 
 # MediaPipe Pose Solution
 mp_drawing = mp.solutions.drawing_utils
